@@ -1,0 +1,1 @@
+pub const SHOWN_TOPICS_LIMIT: usize = 10;

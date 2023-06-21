@@ -1,0 +1,4 @@
+[[hooks]]
+stage = "pre_build"
+command = "sh"
+command_arguments = ["-c", "pnpm dlx tailwindcss -i input.css -o style/output.css"]
